@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    font-size: xx-large;
+    border: 10px solid grey;
+}
+
+/* Pseudo class */
+
+p:nth-last-child(1) {
+    background-color: blue;
+}
+
+div:first-child {
+    background-color: grey;
+}
+
+h2:hover {
+    color: white;
+    border: 5px solid white;
+}
+
+div:last-child {
+    text-align: center;
+}
+
+h2,h3:last-of-type {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Pseudo element  */
+
+p::first-line {
+    background-color: purple;
+}
+
+p::first-letter {
+    font-size: 50px;
+    padding-right: 2px;
+}
+
+#lorem::before {
+    content: url("../Images/Moose.jpg");
+}
+
+#morem::before {
+    content: url("../Images/Mob.jpg");
+}
+
+li::after {
+    content: initial;
+    border: 1px solid green;
+}
+
+p::before {
+    align-content: center;
+}
+
+h2 {
+    font-family: 'Updock', cursive;
+}
+
+h3 {
+    border: 10px solid ;
+}
+
+p {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
